@@ -1,0 +1,48 @@
+<div class="container">
+  <mat-card>
+    <h1 >Detalles de la cuenta</h1>
+    <mat-card class="card">
+      <div>
+        <mat-card-title>{{account?.accountNumber}}</mat-card-title>
+        <mat-card-subtitle>{{account?.accountType}}</mat-card-subtitle>
+      </div>
+      <div>
+        <mat-card-title>${{account?.money}}</mat-card-title>
+      </div>
+    </mat-card>
+    <h2 >Movimientos</h2>
+    <div>
+      <mat-card class="card">
+        <div>
+          <mat-card-title>07/11/2022</mat-card-title>
+          <mat-card-subtitle>{{'Consignación corresponsal cb' |uppercase}} </mat-card-subtitle>
+        </div>
+        <div>
+          <mat-icon>arrow_downward</mat-icon>
+          <mat-card-title>${{30000}}</mat-card-title>
+        </div>
+      </mat-card>
+
+      <mat-card class="card">
+        <div>
+          <mat-card-title>06/11/2022</mat-card-title>
+          <mat-card-subtitle>{{'Consignación corresponsal cb' |uppercase}} </mat-card-subtitle>
+        </div>
+        <div>
+          <mat-icon>arrow_upward</mat-icon>
+          <mat-card-title>${{-10000}}</mat-card-title>
+        </div>
+      </mat-card>
+      <mat-card class="card">
+        <div>
+          <mat-card-title>21/10/2022</mat-card-title>
+          <mat-card-subtitle>{{'Consignación corresponsal cb' |uppercase}} </mat-card-subtitle>
+        </div>
+        <div>
+          <mat-icon>arrow_downward</mat-icon>
+          <mat-card-title>${{40000}}</mat-card-title>
+        </div>
+      </mat-card>
+    </div>
+  </mat-card>
+</div>

@@ -1,0 +1,22 @@
+
+
+.left-side-toolbar{
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: flex-end;
+}
+
+.right-side-toolbar{
+  display: flex;
+  flex: 1;
+}
+
+.spacer{
+  margin: auto;
+}
+mat-toolbar{
+  display: flex;
+  justify-content: space-between;
+  max-width: 100vw;
+}

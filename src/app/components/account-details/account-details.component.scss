@@ -1,0 +1,20 @@
+.container{
+  width: 45vw;
+  text-align: center;
+  margin: 25px;
+  max-height: 80vh;
+  // overflow: scroll;
+}
+
+.card{
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.card-body{
+
+}
+h1{
+  font-weight: bold;
+}
