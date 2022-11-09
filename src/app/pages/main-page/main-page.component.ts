@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import IAccount from 'src/app/modules/account.interface';
+import IAccount from 'src/app/model/account.interface';
 
 @Component({
   selector: 'app-main-page',

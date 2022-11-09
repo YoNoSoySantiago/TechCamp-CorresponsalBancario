@@ -16,4 +16,8 @@ export class PrimaryToolbarComponent implements OnInit {
   goMainMenu():void {
     this.route.navigate(['/'])
   }
+  goTranfers(){
+    this.route.navigate(['transfer-preparation'])
+  }
+
 }

@@ -4,6 +4,7 @@ import { MainPageComponent } from './pages/main-page/main-page.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { WithdrawPageComponent } from './pages/withdraw-page/withdraw-page.component';
 
+
 const routes: Routes = [
   {
     path:'',

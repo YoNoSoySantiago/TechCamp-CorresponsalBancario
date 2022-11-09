@@ -1,0 +1,32 @@
+<app-primary-toolbar></app-primary-toolbar>
+<div class="container">
+    <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
+    </div>
+    <div class="formbg-outer">
+    <div class="formbg">
+    <div class="formbg-inner padding-horizontal--48">
+    <form id="stripe-login">
+    <div class="field padding-bottom--24">
+        <label for="producto_origen">Producto Origen</label>
+        <input type="text" name="producto_origen">
+      </div>
+      <div class="field padding-bottom--24">
+        <div class="grid--50-50">
+          <label for="producto_destino">Producto Destino</label>
+        </div>
+        <input type="text" name="producto_destino">
+      </div>
+      <div class="field padding-bottom--15" >
+          <label for="valor">Valor</label>
+          <input type="text" name="valor">
+        </div>
+      <div class="field field-checkbox padding-bottom--24 flex-flex align-center">
+      </div>
+      <div class="field padding-bottom--24">
+        <input type="submit" (click) ="goTranfersVerification()" value="Continue">
+      </div>
+    </form>
+</div>
+</div>
+</div>
+</div>

@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import IAccount from 'src/app/modules/account.interface';
+import IAccount from 'src/app/model/account.interface';
 
 @Component({
   selector: 'app-account-card',
